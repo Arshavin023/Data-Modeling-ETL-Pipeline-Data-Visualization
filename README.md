@@ -1,7 +1,12 @@
 # data-modeling-ETL-Pipeline-Data-Visualization
 
+
+## Architecture
+![architecture](https://github.com/Arshavin023/Data-Modeling-ETL-Pipeline-Data-Visualization/assets/77532336/e9062ef6-0172-434b-9eb4-f551224f16af)
+
+
 ## `Scenario`
-In this project, ride data of Uber csv files were provided. The data engineer was tasked with creating a data model clearly displaying the facts and dimension tables and building an ETL data pipeline.
+In this project, ride data of Uber csv files were provided. The data engineer was tasked with creating a data model and using the data model to build a data warehouse to be used for analytics by Data Analysts and Data Scientists
 
 ## `Tools Used`
 - Lucid Platform for data modeling (lucid.app)
@@ -31,4 +36,6 @@ In this project, ride data of Uber csv files were provided. The data engineer wa
 - Mage UI was used to perform the ETL process and the ifnal facts and dimension tables were uploaded to Google BigQuery
 - An Analytical query was generated and used to create a view to serve as data source for the analytics dashboard
 
+
+## `Data Model:`
 ![Data Model](https://github.com/Arshavin023/Data-Modeling-ETL-Pipeline-Data-Visualization/assets/77532336/aa2d42fa-a52a-42e1-a74d-fdfd7a7dab68)
