@@ -11,6 +11,7 @@ In this project, ride data of Uber csv files were provided. The data engineer wa
 - Google BigQuery
 
 
+
 ## `Steps Taken:`
 - The existing sample data was studied to understand the fact and dimension tables
 - Lucid App was used to create a data model 
@@ -30,6 +31,4 @@ In this project, ride data of Uber csv files were provided. The data engineer wa
 - Mage UI was used to perform the ETL process and the ifnal facts and dimension tables were uploaded to Google BigQuery
 - An Analytical query was generated and used to create a view to serve as data source for the analytics dashboard
 
-[IBM_Cognos_Dashboard](https://dataplatform.cloud.ibm.com/dashboards/a2f9bd1d-9a21-49b3-b651-b4b1892ee154/view/641ecb6463b411c241e5c4e407ca7800783f775bb1bb870ad3d07b495a687497f33a1194c82a4c0cdd195665f5be410b9a)
-
-![softcartRelationships](https://user-images.githubusercontent.com/77532336/218350662-231a0727-c0b9-42db-a5e2-a3d13a0de7b1.jpg)
+![Data Model](https://github.com/Arshavin023/Data-Modeling-ETL-Pipeline-Data-Visualization/assets/77532336/aa2d42fa-a52a-42e1-a74d-fdfd7a7dab68)
