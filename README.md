@@ -1,4 +1,4 @@
-# data-modeling-ETL-Pipeline-Data-Visualization
+# Data-modeling-ETL-Pipeline
 
 
 ## Architecture
