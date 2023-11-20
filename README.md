@@ -6,21 +6,21 @@
 
 
 ## `Scenario`
-In this project, ride data of Uber csv files were provided. The data engineer was tasked with creating a data model and using the data model to build a data warehouse to be used for analytics by Data Analysts and Data Scientists
+In this project, ride data of Uber were provided. The task was to create an ER diagram for a data warehouse and load facts and dimension tables with appropriate data
 
 ## `Tools Used`
 - Lucid Platform for data modeling (lucid.app)
-- Python (Pandas, Numpy, etc)
-- Mage-ai ETL Platform
-- Google Cloud Platform (GCP)
-- Google BigQuery
+- Python (Pandas, Numpy, etc) for data preprocessing
+- Mage-ai ETL Platform for ETL pipeline
+- Google Cloud Platform (GCP) for data lake
+- Google BigQuery for data warehouse
 
 
 
 ## `Steps Taken:`
 - The existing sample data was studied to understand the fact and dimension tables
-- Lucid App was used to create a data model 
-- Python scripts for data cleaning and generating dimentsion table were carefully written
+- Lucid App was used to create an ER diagram 
+- Python scripts for data cleaning and creation dimentsion table were carefully developed
 - raw_data in csv files were uploaded into the Google Cloud Storage and approriate permissions were granted to allow public access
 - A virtual machine was created with Google Cloud Compute, accessed through ssh and the following commands were ran
   a. sudo apt-get update && sudo apt-get upgrade -y
